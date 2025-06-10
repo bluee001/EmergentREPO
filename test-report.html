@@ -1,0 +1,57 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Test Execution Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .summary { background: #f5f5f5; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+                .summary-item { margin: 10px 0; }
+                .test-suite { margin: 20px 0; }
+                .test-case { margin: 10px 0; padding: 10px; border-left: 4px solid #ccc; }
+                .passed { border-left-color: #4CAF50; }
+                .failed { border-left-color: #f44336; }
+                .skipped { border-left-color: #FFC107; }
+                .status { font-weight: bold; }
+                .passed .status { color: #4CAF50; }
+                .failed .status { color: #f44336; }
+                .skipped .status { color: #FFC107; }
+                .error { color: #f44336; margin-top: 5px; }
+                .duration { color: #666; font-size: 0.9em; }
+            </style>
+        </head>
+        <body>
+            <h1>Test Execution Report</h1>
+            <div class="summary">
+                <h2>Summary</h2>
+                <div class="summary-item">Total Tests: 4</div>
+                <div class="summary-item">Passed: 4</div>
+                <div class="summary-item">Failed: 0</div>
+                <div class="summary-item">Skipped: 0</div>
+                <div class="summary-item">Pass Rate: 100.0%</div>
+            </div>
+            <div class="details">
+                <h2>Test Results</h2><div class="test-suite">
+                <h3>Test 01 for Emergent Application</h3>
+                <div class="test-case passed">
+                    <div class="status">PASSED</div>
+                    <div class="name">should open the application</div>
+                    <div class="duration">Duration: 31.93s</div></div>
+                <div class="test-case passed">
+                    <div class="status">PASSED</div>
+                    <div class="name">should open the application , login and logout</div>
+                    <div class="duration">Duration: 42.66s</div></div></div><div class="test-suite">
+                <h3>Signup Test</h3>
+                <div class="test-case passed">
+                    <div class="status">PASSED</div>
+                    <div class="name">should signup successfully</div>
+                    <div class="duration">Duration: 12.25s</div></div></div><div class="test-suite">
+                <h3>Main Task Input Field Test</h3>
+                <div class="test-case passed">
+                    <div class="status">PASSED</div>
+                    <div class="name">should take input in main task input field and return the response</div>
+                    <div class="duration">Duration: 23.38s</div></div></div>
+            </div>
+        </body>
+        </html>
