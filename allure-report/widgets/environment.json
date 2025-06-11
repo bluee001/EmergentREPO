@@ -1,1 +1,1 @@
-[]
+[{"values":["Windows 10"],"name":"OS"},{"values":["Chrome"],"name":"Browser"},{"values":["124.0.6312.22"],"name":"BrowserVersion"},{"values":["https://app.emergent.sh/"],"name":"URL"},{"values":["17.0.12 2024-07-16 LTS"],"name":"JavaVersion"},{"values":["20.11.0"],"name":"NodeVersion"},{"values":["2025-06-10"],"name":"RunDate"},{"values":["QA"],"name":"Team"},{"values":["Staging"],"name":"Environment"}]
